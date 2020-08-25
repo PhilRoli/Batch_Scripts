@@ -14,7 +14,7 @@ echo .
 echo Checking if Spotify is running
 
 tasklist /FI "IMAGENAME eq Spotify.exe" 2>NUL | find /I /N "Spotify.exe">NUL
-if "%ERRORLEVEL%"=="0" (echo Whatsapp is running) else (
+if "%ERRORLEVEL%"=="0" (echo Spotify is running) else (
     cd "C:\Users\phili\AppData\Local\Microsoft\WindowsApps"
     echo Spotify is Starting
     start Spotify.exe
@@ -25,7 +25,7 @@ echo .
 echo Checking if Discord is running
 
 tasklist /FI "IMAGENAME eq Discord.exe" 2>NUL | find /I /N "Discord.exe">NUL
-if "%ERRORLEVEL%"=="0" (echo Whatsapp is running) else (
+if "%ERRORLEVEL%"=="0" (echo Discord is running) else (
     cd "C:\Users\phili\AppData\Local\Discord\app-0.0.307"
     echo Discord is Starting
     start Discord.exe
@@ -33,4 +33,4 @@ if "%ERRORLEVEL%"=="0" (echo Whatsapp is running) else (
 
 echo .
 
-pause
+exit
