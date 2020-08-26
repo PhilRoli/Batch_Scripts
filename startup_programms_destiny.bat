@@ -29,10 +29,9 @@ if "%ERRORLEVEL%"=="0" (echo chrome is running) else (
     cd "C:\Program Files (x86)\Google\Chrome\Application"
     echo Chrome is Starting
     start chrome.exe
-    timeout /t 15 /nobreak > NUL)
-
-echo DIM is Starting
-"C:\Program Files (x86)\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=diekafcbbmcolffflekimginbldpnioe
+    timeout /t 15 /nobreak > NUL
+    echo DIM is Starting
+    "C:\Program Files (x86)\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=diekafcbbmcolffflekimginbldpnioe)
 
 echo .
 
