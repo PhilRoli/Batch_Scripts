@@ -6,6 +6,7 @@ Just some Scripts I made that help me in stuff I have to do often and dont want 
 Below you will find a list with explination to nearly all files in this repo.
 
 Dont know if anyone will find this usefull, but I thought I would make it my first public repo.
+Also please ignore my mixture of English and German in certain files.
 
 ---
 
