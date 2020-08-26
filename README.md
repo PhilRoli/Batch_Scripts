@@ -1,6 +1,11 @@
 # Batch_Scripts
 
-Just some Scripts I made that help me in stuff I have to do often and dont want to do by hand all the time
+---
+
+Just some Scripts I made that help me in stuff I have to do often and dont want to do by hand all the time.
+Below you will find a lis with explination to nearly all files in this repo
+
+---
 
 **DestinySteam.bat**: Start Steam, wait 15 sec, then start Destiny 2. Included a .vbs file to start the bat script invisible
 
