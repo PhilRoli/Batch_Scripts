@@ -11,7 +11,7 @@ Below you will find a lis with explination to nearly all files in this repo
 
 **checkprogramm.bat**: Ask for user input of a certain programm, which then gets checked if it is running, if so user gets asked if he wants to kill it
 
-**createNewDir.bat**: Makes a new Folder with user input name and creates a README.md file and execute "git init"
+**createNewDir.bat**: Makes a new Folder with user input name and creates a README.md file and execute "git init", then adds it to the current VSC Workspace. If VSC is not running it starts it
 
 **new_line.bat**: File to test a empty line code i found
 
