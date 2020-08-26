@@ -4,6 +4,17 @@ set /p dirname="Name of the new Directory: "
 
 cd "C:\"
 
+IF exist "%dirname%" (
+    echo .
+    set /p alredyExisting="%dirname% already exists, do you want to add it to the VSC Workspace? (Y/N) "
+    goto Continue
+) else (goto DoesntExist)
+
+:Continue
+if "%alredyExisting%"=="y" (goto AddDIR) else (goto Done)
+
+:DoesntExist
+
 mkdir %dirname%
 
 cd "C:\%dirname%"
