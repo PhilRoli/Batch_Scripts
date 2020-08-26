@@ -15,3 +15,7 @@ type NUL > README.md
 timeout /t 1 /nobreak > NUL
 
 git init
+
+git add -A
+
+git commit -m "Created the %dirname% folder inkl README.md file"
