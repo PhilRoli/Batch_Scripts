@@ -15,6 +15,9 @@ if "%location%" == "s" goto ResultSchool
 if "%location%" == "programming" goto ResultProgramming
 if "%location%" == "p" goto ResultProgramming
 
+if "%location%" == "destiny" goto ResultDestiny
+if "%location%" == "d" goto ResultDestiny
+
 if "%location%" == "test" goto ResultTest
 if "%location%" == "t" goto ResultTest
 
@@ -33,6 +36,10 @@ exit
 
 :ResultProgramming
     launchProgramming.vbs
+    exit
+
+:ResultDestiny
+    launchDestiny2.vbs
     exit
 
 :ResultTest
