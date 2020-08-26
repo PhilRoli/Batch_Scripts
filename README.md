@@ -1,7 +1,5 @@
 # Batch_Scripts
 
----
-
 Just some Scripts I made that help me in stuff I have to do often and dont want to do by hand all the time.
 Below you will find a list with explination to nearly all files in this repo.
 
