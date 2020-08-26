@@ -12,6 +12,8 @@ timeout /t 1 /nobreak > NUL
 
 type NUL > README.md
 
+echo "# %dirname%" > README.md
+
 timeout /t 1 /nobreak > NUL
 
 git init
