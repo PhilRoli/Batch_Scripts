@@ -19,4 +19,4 @@ Below you will find a list with explination to nearly all files in this repo
 
 **startup_programms_***: Opens the programms which the user wants to open at certain places / while doing ceratin activitys
 
-**launch*.vbs**: vbs files which open ub the corresponding .bat files invisible and without having the trough .bat opend programms tied to the cmd session
+**launch/*.vbs**: vbs files which open ub the corresponding .bat files invisible and without having the trough .bat opend programms tied to the cmd session
