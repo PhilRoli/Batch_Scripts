@@ -17,6 +17,6 @@ Below you will find a list with explination to nearly all files in this repo
 
 **startup_programms.bat**: Opens a cmd window where the user gets asked where he currently is, based on the answer a corresponding .vbs / .bat file gets opend
 
-**startup_programms_***: Opens the programms which the user wants to open at certain places / while doing ceratin activitys
+**startup_programms______.bat**: Opens the programms which the user wants to open at certain places / while doing ceratin activitys
 
-**launch/*.vbs**: vbs files which open ub the corresponding .bat files invisible and without having the trough .bat opend programms tied to the cmd session
+**launch______.vbs**: vbs files which open ub the corresponding .bat files invisible and without having the trough .bat opend programms tied to the cmd session
