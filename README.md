@@ -21,3 +21,5 @@ Also please ignore my mixture of English and German in certain files.
 **startup_programms______.bat**: Opens the programms which the user wants to open at certain places / while doing ceratin activitys
 
 **launch______.vbs**: vbs files which open ub the corresponding .bat files invisible and without having the trough .bat opend programms tied to the cmd session
+
+**SchutdownCheck.bat / .vbs**: If executed, checks if certain programms are running, if so, closes them. .vbs to execute invisible
