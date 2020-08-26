@@ -19,3 +19,9 @@ git init
 git add -A
 
 git commit -m "Created the %dirname% folder inkl README.md file"
+
+cd "C:\"
+
+code -a --add %dirname%
+
+pause
