@@ -1,6 +1,6 @@
 @echo off
 
-cd "C:\VSC_Batch_Scripts"
+cd "C:\VSC_Batch_Scripts\vbs_files"
 
 set /p location="Home / School / Programming / Destiny: "
 
