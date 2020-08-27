@@ -18,7 +18,9 @@ if "%ERRORLEVEL%"=="0" (Taskkill /IM Code.exe /F)
 tasklist /FI "IMAGENAME eq Steam.exe" 2>NUL | find /I /N "Steam.exe">NUL
 if "%ERRORLEVEL%"=="0" (Taskkill /IM Steam.exe /F)
 
-echo [91mShutdown after Timer below ends
-echo Please close all remaining open Programms
-shutdown /s /f /t 60 && timeout /t 60
+exit
+
+REM echo [91mShutdown after Timer below ends
+REM echo Please close all remaining open Programms
+REM shutdown /s /f /t 10060 && timeout /t 60
 
