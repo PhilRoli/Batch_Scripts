@@ -18,7 +18,7 @@ Also please ignore my mixture of English and German in certain files.
 
 - **createNewDir.bat**: Makes a new Folder with user input name and creates a README.md file and execute "git init", then adds it to the current VSC Workspace. If VSC is not running it starts it
 
-- **SchutdownCheck.bat**: If executed, checks if certain programms are running, if so, closes them. Then starts a countdown after which the computer will shut down
+- **SchutdownCheck.bat**: If executed, checks if certain programms are running, if so, closes them. ~~Then starts a countdown after which the computer will shut down~~
 
 - **startup_programms.bat**: Opens a cmd window where the user gets asked where he currently is, based on the answer a corresponding .vbs / .bat file gets opend
 
