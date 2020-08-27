@@ -9,7 +9,7 @@ if "%ERRORLEVEL%"=="0" (echo Whatsapp is running) else (
     start WhatsApp.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 echo Checking if Teams is running
 
@@ -20,7 +20,7 @@ if "%ERRORLEVEL%"=="0" (echo Teams is running) else (
     start Teams.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 echo Checking if Chrome is running
 
@@ -31,6 +31,6 @@ if "%ERRORLEVEL%"=="0" (echo Discord is running) else (
     start Chrome.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 exit

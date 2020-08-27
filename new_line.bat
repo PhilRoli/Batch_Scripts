@@ -7,5 +7,5 @@ set NL=^^^%NLM%%NLM%^%NLM%%NLM%
 REM Example Usage:
 echo There should be a newline%NL%inserted here.
 
-echo.
+echo [30m.[37m
 pause

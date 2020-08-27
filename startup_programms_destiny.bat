@@ -9,7 +9,7 @@ if "%ERRORLEVEL%"=="0" (echo Whatsapp is running) else (
     start WhatsApp.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 echo Checking if Spotify is running
 
@@ -20,7 +20,7 @@ if "%ERRORLEVEL%"=="0" (echo Spotify is running) else (
     start Spotify.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 echo Checking if chrome is running
 
@@ -33,6 +33,6 @@ if "%ERRORLEVEL%"=="0" (echo chrome is running) else (
     echo DIM is Starting
     "C:\Program Files (x86)\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=diekafcbbmcolffflekimginbldpnioe)
 
-echo .
+echo [30m.[37m
 
 exit

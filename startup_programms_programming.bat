@@ -9,7 +9,7 @@ if "%ERRORLEVEL%"=="0" (echo Visual Studio Code is running) else (
     start Code.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 echo Checking if Spotify is running
 
@@ -20,7 +20,7 @@ if "%ERRORLEVEL%"=="0" (echo Spotify is running) else (
     start Spotify.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 echo Checking if chrome is running
 
@@ -31,6 +31,6 @@ if "%ERRORLEVEL%"=="0" (echo chrome is running) else (
     start chrome.exe
     timeout /t 15 /nobreak > NUL)
 
-echo .
+echo [30m.[37m
 
 exit

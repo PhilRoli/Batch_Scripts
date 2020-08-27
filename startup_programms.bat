@@ -4,7 +4,7 @@ cd "C:\VSC_Batch_Scripts"
 
 set /p location="Where are you right now? "
 
-echo .
+echo [30m.[37m
 
 if "%location%" == "home" goto ResultHome
 if "%location%" == "h" goto ResultHome
@@ -22,7 +22,7 @@ if "%location%" == "test" goto ResultTest
 if "%location%" == "t" goto ResultTest
 
 echo Die einganbe war nicht korrekt
-echo .
+echo [30m.[37m
 pause
 exit
 
@@ -44,6 +44,6 @@ exit
 
 :ResultTest
     echo Test Erfolgreich
-    echo .
+    echo [30m.[37m
     pause
     exit

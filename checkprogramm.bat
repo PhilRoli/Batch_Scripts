@@ -19,6 +19,6 @@ set /p killchoice="Do you want to kill this programm? (Y/N) "
 echo .
 
 if "%killchoice%"=="y" (Taskkill /IM %programm%.exe /F
-    echo .
+    echo [30m.[37m
     pause
 ) else (pause)
