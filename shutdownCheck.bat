@@ -20,6 +20,5 @@ if "%ERRORLEVEL%"=="0" (Taskkill /IM Steam.exe /F)
 
 echo [91mShutdown after Timer below ends
 echo Please close all remaining open Programms
-timeout /t 60
+shutdown /s /f /t 60 && timeout /t 60
 
-shutdown /s /f
