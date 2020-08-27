@@ -2,7 +2,7 @@
 
 cd "C:\VSC_Batch_Scripts"
 
-set /p location="Where are you right now? "
+set /p location="Home / School / Programming / Destiny: "
 
 echo [30m.[37m
 
