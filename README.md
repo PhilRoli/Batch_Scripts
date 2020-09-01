@@ -12,7 +12,7 @@ Also please ignore my mixture of English and German in certain files.
 
 ---
 
-- **checkprogramm.bat**: Ask for user input of a certain programm, which then gets checked if it is running, if so user gets asked if he wants to kill it.
+- **[checkprogramm.bat](/checkprogramm.bat)**: Ask for user input of a certain programm, which then gets checked if it is running, if so user gets asked if he wants to kill it.
 
 - **createNewDir.bat**: Makes a new Folder with user input name and creates a README.md file and execute "git init", then adds it to the current VSC Workspace. If VSC is not running it starts it.
 
