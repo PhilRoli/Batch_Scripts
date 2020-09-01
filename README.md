@@ -18,6 +18,8 @@ Also please ignore my mixture of English and German in certain files.
 
 - **DestinySteam.bat**: Start Steam, wait 15 sec, then start Destiny 2. Included a .vbs file to start the bat script invisible.
 
+- **liveTasklist.bat**: Opens the launchTasklist.vbs file every second, thus resulting in a "live" tasklist.
+
 - **startup_programms.bat**: Opens a cmd window where the user gets asked where he currently is, based on the answer a corresponding .vbs / .bat file gets opend.
 
 - **startup_programms______.bat**: Opens the programms which the user wants to open at certain places / while doing ceratin activitys.
