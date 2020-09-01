@@ -22,7 +22,7 @@ Also please ignore my mixture of English and German in certain files.
 
 - **[startup_programms.bat](/startup_programms.bat)**: Opens a cmd window where the user gets asked where he currently is, based on the answer a corresponding .vbs / .bat file gets opend.
 
-- **[tasklistOut.bat](/tasklistOut.bat)**: Outputs the content of the tasklist command to a file in my documents and then opens said file.
+- **[tasklistOut.bat](/tasklistOut.bat)**: Outputs the content of the tasklist command to a file in the users documents and then opens said file.
 
 ---
 

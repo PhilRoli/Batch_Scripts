@@ -1,6 +1,6 @@
 @echo off
 
-cd C:\Users\phili\Documents
+cd C:\Users\%username%\Documents
 
 :Start
 echo [30m.[37m
