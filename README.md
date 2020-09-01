@@ -22,7 +22,7 @@ Also please ignore my mixture of English and German in certain files.
 
 - **startup_programms______.bat**: Opens the programms which the user wants to open at certain places / while doing ceratin activitys.
 
-- **tasklistOut.bat**: Outputs the content of the tasklist command every 5 seconds to a file on my desktop. Also echos the number of lines in the file into the cmd window.
+- **tasklistOut.bat**: Outputs the content of the tasklist command to a file on my desktop and then opens said file.
 
 ---
 
