@@ -30,8 +30,8 @@ Also please ignore my mixture of English and German in certain files.
 
 ---
 
-- **startup_files**: Folder that contains all bat files which are used in the [startup_programms.bat](./startup_programms.bat) file.
+- **[startup_files](./startup_files)**: Folder that contains all bat files which are used in the [startup_programms.bat](./startup_programms.bat) file.
 
-- **test_files**: Folder that contains all .bat files I created to test certain functions that then get used in the main Files.
+- **[test_files](./test_files)**: Folder that contains all .bat files I created to test certain functions that then get used in the main Files.
 
-- **vbs_files**: Folder that contains all vbs files which open up the corresponding .bat files invisible and without having the trough .bat opend programms tied to the cmd session.
+- **[vbs_files](./vbs_files)**: Folder that contains all vbs files which open up the corresponding .bat files invisible and without having the trough .bat opend programms tied to the cmd session.
