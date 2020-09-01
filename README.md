@@ -18,8 +18,6 @@ Also please ignore my mixture of English and German in certain files.
 
 - **DestinySteam.bat**: Start Steam, wait 15 sec, then start Destiny 2. Included a .vbs file to start the bat script invisible
 
-- **SchutdownCheck.bat**: If executed, checks if certain programms are running, if so, closes them. ~~Then starts a countdown after which the computer will shut down~~
-
 - **startup_programms.bat**: Opens a cmd window where the user gets asked where he currently is, based on the answer a corresponding .vbs / .bat file gets opend
 
 - **startup_programms______.bat**: Opens the programms which the user wants to open at certain places / while doing ceratin activitys
@@ -30,8 +28,6 @@ Also please ignore my mixture of English and German in certain files.
 ## Folders
 
 ---
-
-- **discontinued_files**: Folder that contains all files that have been discontinued
 
 - **test_files**: Folder that contains all .bat files I created to test certain functions that then get used in the main Files
 
