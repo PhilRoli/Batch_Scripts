@@ -2,6 +2,7 @@
 
 cd "C:\VSC_Batch_Scripts\vbs_files"
 
+:Input
 set /p location="Home / School / Programming / Destiny / Among: "
 
 echo [30m.[37m
@@ -24,10 +25,12 @@ if "%location%" == "a" goto ResultAmong
 if "%location%" == "test" goto ResultTest
 if "%location%" == "t" goto ResultTest
 
-echo Die einganbe war nicht korrekt
+if "%location%" == "exit" goto ResaultExit
+if "%location%" == "e" goto ResaultExit
+
+echo The Input does not Match any Availible Options. Please try again.
 echo [30m.[37m
-pause
-exit
+goto Input
 
 :ResultHome
     echo Launching Home Programms
@@ -71,4 +74,7 @@ exit
     echo Test Erfolgreich
     echo [30m.[37m
     pause
+    exit
+
+:ResultExit
     exit
