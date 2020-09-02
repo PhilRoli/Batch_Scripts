@@ -1,5 +1,7 @@
 # **Batch_Scripts**
 
+[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/philroli/batch_scripts/issues) [![GitHub last commit](https://img.shields.io/github/last-commit/philroli/Batch_Scripts)](https://github.com/PhilRoli/Batch_Scripts/pulls) ![GitHub repo size](https://img.shields.io/github/repo-size/philroli/Batch_Scripts)
+
 Just some Scripts I made that help me in stuff I have to do often and dont want to do by hand all the time.
 Below you will find a list with explination to nearly all files in this repo.
 
