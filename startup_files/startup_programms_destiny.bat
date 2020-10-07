@@ -4,7 +4,7 @@ echo Checking if Whatsapp is running
 
 tasklist /FI "IMAGENAME eq WhatsApp.exe" 2>NUL | find /I /N "WhatsApp.exe">NUL
 if "%ERRORLEVEL%"=="0" (echo Whatsapp is running) else (
-    cd "C:\Users\phili\AppData\Local\WhatsApp\app-2.2033.7"
+    cd "C:\Users\phili\AppData\Local\WhatsApp"
     echo WhatsApp is Starting
     start WhatsApp.exe
     timeout /t 15 /nobreak > NUL)
@@ -31,7 +31,7 @@ if "%ERRORLEVEL%"=="0" (echo chrome is running) else (
     start chrome.exe
     timeout /t 15 /nobreak > NUL
     echo DIM is Starting
-    "C:\Program Files (x86)\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=diekafcbbmcolffflekimginbldpnioe)
+    "C:\Programme\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=diekafcbbmcolffflekimginbldpnioe)
 
 echo [30m.[37m
 

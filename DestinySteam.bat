@@ -1,6 +1,6 @@
 @echo off
 
-"C:\Program Files (x86)\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=diekafcbbmcolffflekimginbldpnioe
+"C:\Programme\Google\Chrome\Application\chrome_proxy.exe" --profile-directory=Default --app-id=diekafcbbmcolffflekimginbldpnioe
 timeout /t 15 /nobreak > NUL
 
 tasklist /FI "IMAGENAME eq Destiny2.exe" 2>NUL | find /I /N "Destiny2.exe">NUL

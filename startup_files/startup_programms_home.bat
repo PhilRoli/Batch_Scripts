@@ -4,7 +4,7 @@ echo Checking if Whatsapp is running
 
 tasklist /FI "IMAGENAME eq WhatsApp.exe" 2>NUL | find /I /N "WhatsApp.exe">NUL
 if "%ERRORLEVEL%"=="0" (echo Whatsapp is running) else (
-    cd "C:\Users\phili\AppData\Local\WhatsApp\app-2.2033.7"
+    cd "C:\Users\phili\AppData\Local\WhatsApp"
     echo WhatsApp is Starting
     start WhatsApp.exe
     timeout /t 15 /nobreak > NUL)
@@ -26,9 +26,9 @@ echo Checking if Discord is running
 
 tasklist /FI "IMAGENAME eq Discord.exe" 2>NUL | find /I /N "Discord.exe">NUL
 if "%ERRORLEVEL%"=="0" (echo Discord is running) else (
-    cd "C:\Users\phili\AppData\Local\Discord\app-0.0.307"
+    cd "C:\Users\phili\AppData\Local\DiscordPTB\app-0.0.55"
     echo Discord is Starting
-    start Discord.exe
+    start DiscordPTB.exe
     timeout /t 15 /nobreak > NUL)
 
 echo [30m.[37m
