@@ -33,6 +33,10 @@ git add -A
 
 git commit -m "Created the %dirname% folder inkl README.md file"
 
+timeout /t 1 /nobreak > NUL
+
+xcopy C:\Users\phili\Documents\.gitignore "C:\%dirname%"
+
 cd "C:\"
 
 set /p choice="Do you want to add the new DIR to VSC now? (Y/N) "
