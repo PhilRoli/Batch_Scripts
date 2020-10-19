@@ -16,7 +16,7 @@ echo [30m.[37m
 goto Choice
 
 :Nodemon
-nodemon bot_js.js
+nodemon -d 20 bot_js.js
 exit
 
 :Node
