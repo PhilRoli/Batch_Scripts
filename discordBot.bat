@@ -1,5 +1,7 @@
 @echo off
 
+mode con: cols=35 lines=30
+
 cd "C:\VSC_Node\DiscordBot"
 
 :Choice
