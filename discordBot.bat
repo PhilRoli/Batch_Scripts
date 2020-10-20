@@ -1,6 +1,6 @@
 @echo off
 
-mode con: cols=35 lines=30
+mode con: cols=35
 
 cd "C:\VSC_Node\DiscordBot"
 
@@ -18,9 +18,9 @@ echo [30m.[37m
 goto Choice
 
 :Nodemon
-nodemon -d 20 bot_js.js
+nodemon -d 20 inde.js
 exit
 
 :Node
-node bot_js.js
+node index.js
 exit
