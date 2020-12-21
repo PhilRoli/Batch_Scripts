@@ -18,7 +18,7 @@ echo [30m.[37m
 goto Choice
 
 :Nodemon
-nodemon -d 20 inde.js
+nodemon -d 20 index.js
 exit
 
 :Node
