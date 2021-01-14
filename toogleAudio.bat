@@ -19,6 +19,8 @@ start PS5
 
 echo 1 >"C:\users\phili\documents\level.txt"
 
+node "C:\VSC_Node\Node_Batch\toogle_audio\toogle_ps5.js"
+
 exit
 
 :switchPC
@@ -27,5 +29,7 @@ REM set the headset as default audio device
 start PC
 
 echo 0 >"C:\users\phili\documents\level.txt"
+
+node "C:\VSC_Node\Node_Batch\toogle_audio\toogle_pc.js"
 
 exit
