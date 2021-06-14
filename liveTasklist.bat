@@ -1,9 +1,13 @@
-cd C:\VSC_Batch_Scripts\vbs_files
+@echo off
+
+cd C:\
 
 :Loop
 
-launchTasklist.vbs
+tasklist
 
-timeout /t 1 /nobreak > NUL
+timeout /t 10 /nobreak > NUL
+
+cls
 
 goto Loop
