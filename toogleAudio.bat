@@ -15,7 +15,7 @@ if "%level%"=="1 " goto switchPC
 :switchPS5
 
 REM set the speakers (3.5mm) as default audio
-start PS5
+start PS5.lnk
 
 echo 1 >"C:\users\phili\documents\level.txt"
 
@@ -26,7 +26,7 @@ exit
 :switchPC
 
 REM set the headset as default audio device
-start PC
+start PC.lnk
 
 echo 0 >"C:\users\phili\documents\level.txt"
 
